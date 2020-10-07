@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>SKAUT-IN-TIME</title>
+      <meta charset="utf-8">
+    </head>
+    <body style="color: lime;text-align: center; background-color: rgb(32, 30, 30);
+    font-family:monospace; line-height: 20px;">
+    
+<!--BÁRA-->
+<h1 style="font-size: 100px;">JMÉNO</h1>
+    <b><p id="demo01" style="font-size: 80px;">NAČÍTÁNÍ...</p></b>
+    <script>
+      var countDownDate01 = new Date("Oct 7, 2021 15:40:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate01 - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("demo01").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo01").innerHTML = "UMŘEL JSI";
+        }
+      }, 1000);
+    </script>
+    
+<br>
+
+<!--BÁRA-->
+<h1 style="font-size: 100px;">JMÉNO</h1>
+    <b><p id="demo02" style="font-size: 80px;">NAČÍTÁNÍ...</p></b>
+    <script>
+      var countDownDate02 = new Date("Oct 10, 2020 12:25:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate02 - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("demo02").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo02").innerHTML = "UMŘEL JSI";
+        }
+      }, 1000);
+    </script>
+
+<br>
+
+<!--BÁRA-->
+<h1 style="font-size: 100px;">JMÉNO</h1>
+    <b><p id="demo03" style="font-size: 80px;">NAČÍTÁNÍ...</p></b>
+    <script>
+      var countDownDate03 = new Date("Oct 7, 2020 20:00:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate03 - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("demo03").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo03").innerHTML = "UMŘEL JSI";
+        }
+      }, 1000);
+    </script>
+
+<br>
+
+<!--BÁRA-->
+<h1 style="font-size: 100px;">JMÉNO</h1>
+    <b><p id="demo04" style="font-size: 80px;">NAČÍTÁNÍ...</p></b>
+    <script>
+      var countDownDate04 = new Date("Oct 7, 2021 10:00:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate04 - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("demo04").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo04").innerHTML = "UMŘEL JSI";
+        }
+      }, 1000);
+    </script>
+
+<br>
+
+<!--BÁRA-->
+<h1 style="font-size: 100px;">JMÉNOa</h1>
+    <b><p id="demo05" style="font-size: 80px;">NAČÍTÁNÍ...</p></b>
+    <script>
+      var countDownDate05 = new Date("Oct 11, 2020 10:00:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate05 - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("demo05").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo05").innerHTML = "UMŘEL JSI";
+        }
+      }, 1000);
+    </script>
+
+<br>
+
+<!--BÁRA-->
+<h1 style="font-size: 100px;">JMÉNOb</h1>
+    <b><p id="demo06" style="font-size: 80px;">NAČÍTÁNÍ...</p></b>
+    <script>
+      var countDownDate06 = new Date("Oct 10, 2020 10:00:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate06 - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("demo06").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo06").innerHTML = "UMŘEL JSI";
+        }
+      }, 1000);
+    </script>
+
+<br>
+
+<!--BÁRA-->
+<h1 style="font-size: 100px;">JMÉNOc</h1>
+    <b><p id="demo07" style="font-size: 80px;">NAČÍTÁNÍ...</p></b>
+    <script>
+      var countDownDate07 = new Date("Oct 10, 2020 10:00:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate07 - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("demo07").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo07").innerHTML = "UMŘEL JSI";
+        }
+      }, 1000);
+    </script>
+
+<br>
+
+<!--BÁRA-->
+<h1 style="font-size: 100px;">JMÉNOd</h1>
+    <b><p id="demo08" style="font-size: 80px;">NAČÍTÁNÍ...</p></b>
+    <script>
+      var countDownDate08 = new Date("Oct 10, 2020 10:00:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate08 - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("demo08").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo08").innerHTML = "UMŘEL JSI";
+        }
+      }, 1000);
+    </script>
+
+<br>
+
+<!--BÁRA-->
+<h1 style="font-size: 100px;">JMÉNOe</h1>
+    <b><p id="demo09" style="font-size: 80px;">NAČÍTÁNÍ...</p></b>
+    <script>
+      var countDownDate09 = new Date("Oct 10, 2020 12:00:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate09 - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("demo09").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo09").innerHTML = "UMŘEL JSI";
+        }
+      }, 1000);
+    </script>
+
+<br>
+
+<!--BÁRA-->
+<h1 style="font-size: 100px;">JMÉNOf</h1>
+    <b><p id="demo10" style="font-size: 80px;">NAČÍTÁNÍ...</p></b>
+    <script>
+      var countDownDate10 = new Date("Oct 10, 2020 10:00:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate10 - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("demo10").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo10").innerHTML = "UMŘEL JSI";
+        }
+      }, 1000);
+    </script>
+
+<br>
+
+<!--BÁRA-->
+<h1 style="font-size: 100px;">JMÉNOg</h1>
+    <b><p id="demo11" style="font-size: 80px;">NAČÍTÁNÍ...</p></b>
+    <script>
+      var countDownDate11 = new Date("Oct 10, 2020 10:00:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate11 - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("demo11").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo11").innerHTML = "UMŘEL JSI";
+        }
+      }, 1000);
+    </script>
+
+<br>
+
+<!--BÁRA-->
+<h1 style="font-size: 100px;">JMÉNOh</h1>
+    <b><p id="demo12" style="font-size: 80px;">NAČÍTÁNÍ...</p></b>
+    <script>
+      var countDownDate12 = new Date("Oct 10, 2020 10:00:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate12 - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("demo12").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo12").innerHTML = "UMŘEL JSI";
+        }
+      }, 1000);
+    </script>
+
+<br>
+
+<!--BÁRA-->
+<h1 style="font-size: 100px;">JMÉNOi</h1>
+    <b><p id="demo13" style="font-size: 80px;">NAČÍTÁNÍ...</p></b>
+    <script>
+      var countDownDate13 = new Date("Oct 10, 2020 10:00:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate13 - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("demo13").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo13").innerHTML = "UMŘEL JSI";
+        }
+      }, 1000);
+    </script>
+
+<br>
+
+<!--BÁRA-->
+<h1 style="font-size: 100px;">JMÉNOj</h1>
+    <b><p id="demo14" style="font-size: 80px;">NAČÍTÁNÍ...</p></b>
+    <script>
+      var countDownDate14 = new Date("Oct 10, 2020 10:00:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate14 - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("demo14").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo14").innerHTML = "UMŘEL JSI";
+        }
+      }, 1000);
+    </script>
+
+<br>
+
+<!--BÁRA-->
+<h1 style="font-size: 100px;">JMÉNOk</h1>
+    <b><p id="demo15" style="font-size: 80px;">NAČÍTÁNÍ...</p></b>
+    <script>
+      var countDownDate15 = new Date("Oct 10, 2020 10:00:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate15 - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("demo15").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo15").innerHTML = "UMŘEL JSI";
+        }
+      }, 1000);
+    </script>
+
+<br>
+
+<!--BÁRA-->
+<h1 style="font-size: 100px;">JMÉNOl</h1>
+    <b><p id="demo16" style="font-size: 80px;">NAČÍTÁNÍ...</p></b>
+    <script>
+      var countDownDate16 = new Date("Oct 10, 2020 10:00:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate16 - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("demo16").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo16").innerHTML = "UMŘEL JSI";
+        }
+      }, 1000);
+    </script>
+
+<br>
+
+<!--BÁRA-->
+<h1 style="font-size: 100px;">JMÉNOm</h1>
+    <b><p id="demo17" style="font-size: 80px;">NAČÍTÁNÍ...</p></b>
+    <script>
+      var countDownDate17 = new Date("Oct 10, 2020 10:00:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate17 - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("demo17").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo17").innerHTML = "UMŘEL JSI";
+        }
+      }, 1000);
+    </script>
+    <h2>poslední se nenačítá</h2>
+    
+</body>
+</html>
